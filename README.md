@@ -1,5 +1,5 @@
 # drachtio-mw-blackhole-scanners
-Detect and block scanners based on pattern match headers (e.g. sipvicious User-Agent header)
+[drachtio](https://github.com/davehorton/drachtio) middleware to detect and block SIP scanners based on pattern match headers.  Incoming messages with headers that match any of the provided patterns are added to an iptables chain of your choosing which simply drops further packets from that address.
 
 ```js
 var drachtio            = require('drachtio') ;
@@ -15,6 +15,6 @@ var opts = {
   rejectWith: 503
 } ;
 
-app.use( blackhole( opts ) ;
+app.use( blackhole( opts ) );
 
 ```
