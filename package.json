@@ -1,0 +1,28 @@
+{
+  "name": "drachtio-mw-blackhole-scanners",
+  "version": "0.0.1",
+  "description": "Detect and block scanners based on pattern match headers (e.g. sipvicious User-Agent header)",
+  "main": "app.js",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "iptables": "0.0.4",
+    "lodash": "^4.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davehorton/drachtio-mw-blackhole-scanners.git"
+  },
+  "keywords": [
+    "SIP",
+    "scanners"
+  ],
+  "author": "Dave Horton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davehorton/drachtio-mw-blackhole-scanners/issues"
+  },
+  "homepage": "https://github.com/davehorton/drachtio-mw-blackhole-scanners#readme"
+}
