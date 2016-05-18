@@ -1,7 +1,7 @@
 # drachtio-mw-blackhole-scanners
 [drachtio](https://github.com/davehorton/drachtio) middleware to detect and block SIP scanners based on pattern match headers.  Incoming messages with headers that match any of the provided patterns are added to an iptables chain of your choosing which simply drops further packets from that address.
 
-## Usage
+### Usage
 ```js
 var drachtio            = require('drachtio') ;
 var app                 = drachtio() ;
